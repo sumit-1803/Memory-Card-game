@@ -2,12 +2,12 @@ import { useState, useEffect } from "react";
 import "./App.css";
 
 const cardImages = [
-  { src: "public/Images/580b57fcd9996e24bc43c32a.png" },
-  { src: "public/Images/580b57fcd9996e24bc43c324.png" },
-  { src: "public/Images/580b57fcd9996e24bc43c325.png" },
-  { src: "public/Images/5859662e4f6ae202fedf2878.png" },
-  { src: "public/Images/585960224f6ae202fedf2853.png" },
-  { src: "public/Images/585965054f6ae202fedf285f.png" },
+  { src: "./public/Images/580b57fcd9996e24bc43c32a.png" },
+  { src: "./public/Images/580b57fcd9996e24bc43c324.png" },
+  { src: "./public/Images/580b57fcd9996e24bc43c325.png" },
+  { src: "./public/Images/5859662e4f6ae202fedf2878.png" },
+  { src: "./public/Images/585960224f6ae202fedf2853.png" },
+  { src: "./public/Images/585965054f6ae202fedf285f.png" },
 ];
 
 function App() {
